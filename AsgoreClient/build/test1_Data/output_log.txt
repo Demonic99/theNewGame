@@ -6,33 +6,37 @@ Direct3D:
     Vendor:   Intel
     VRAM:     2111 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\DarkRiftAPI.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\DarkRiftAPI.dll into Unity Child Domain
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\Transmission.dll (this message is harmless)
-Loading C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\Transmission.dll into Unity Child Domain
-- Completed reload, in  0.079 seconds
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\DemonicLP\Documents\theGame_unity\AsgoreClient\build\test1_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\DarkRiftAPI.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\DarkRiftAPI.dll into Unity Child Domain
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\Transmission.dll (this message is harmless)
+Loading C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\Transmission.dll into Unity Child Domain
+- Completed reload, in  0.104 seconds
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\DemonicLP\Documents\GitHub\theNewGame\AsgoreClient\build\test1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.867413 ms
+UnloadTime: 1.137493 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.201708 ms
+UnloadTime: 4.119468 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 211.
-Total: 0.282453 ms (FindLiveObjects: 0.014080 ms CreateObjectMapping: 0.012800 ms MarkObjects: 0.244906 ms  DeleteObjects: 0.004693 ms)
+Total: 0.288000 ms (FindLiveObjects: 0.020053 ms CreateObjectMapping: 0.016213 ms MarkObjects: 0.239360 ms  DeleteObjects: 0.004693 ms)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: f1c -> priority: 1 
+  Thread -> id: 3290 -> priority: 1 
