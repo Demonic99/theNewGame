@@ -19,6 +19,7 @@ public class Manager : MonoBehaviour {
 		if (Connection.isConnected == true) {
 			Connection.Disconnect ();
 		}
+		Manager.Connection.onData -= OnDataRecieved;
 	}
 
 
@@ -69,10 +70,10 @@ public class Manager : MonoBehaviour {
 					n = reader.ReadInt32 ();
 					string[] nn = new string[n];
 					nn = reader.ReadStrings ();
-					Globalmanager.availableSlaves.Clear ();
-					Globalmanager.availableSlaves.AddRange (nn);
+					Globalmanager.availablePlayers.Clear ();
+					Globalmanager.availablePlayers.AddRange (nn);
 					Debug.Log (nn.Length);
-					Globalmanager.availableSlavesUpdated = true;
+					Globalmanager.availablePlayersUpdated = true;
 				}
 			}
 		}

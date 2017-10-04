@@ -6,9 +6,9 @@ public class Globalmanager : MonoBehaviour {
 
 	public static int id;
 
-	public static List<string> availableSlaves = new List<string>();
+	public static List<string> availablePlayers = new List<string>();
 
-	public static bool availableSlavesUpdated;
+	public static bool availablePlayersUpdated;
 
 	public static List<ushort> availableCards = new List<ushort> ();
 

@@ -16,7 +16,7 @@ public class Lobbymanager : MonoBehaviour {
 
 	public void Update(){
 		
-		if (Globalmanager.availableSlavesUpdated == true) {
+		if (Globalmanager.availablePlayersUpdated == true) {
 
 			foreach (GameObject go in gos) {
 
@@ -25,7 +25,7 @@ public class Lobbymanager : MonoBehaviour {
 
 			gos.Clear();
 
-			foreach (string player in Globalmanager.availableSlaves) {
+			foreach (string player in Globalmanager.availablePlayers) {
 
 				GameObject go = Instantiate (ListObject);
 				go.transform.SetParent (Content.transform,false);
@@ -34,7 +34,7 @@ public class Lobbymanager : MonoBehaviour {
 				Text t = go.GetComponentInChildren<Text> ();
 				t.text = player;
 			}
-			Globalmanager.availableSlavesUpdated = false;
+			Globalmanager.availablePlayersUpdated = false;
 		}
 
 		if (Globalmanager.availableCardsUpdated == true) {
