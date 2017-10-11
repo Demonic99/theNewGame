@@ -8,8 +8,8 @@ public class SaveDeck1 : MonoBehaviour {
 	public GameObject BuildingDecks;
 
 	public void OnButtonPressed(){
-			
-			TogglePanel (BuildingDecks);
+		TogglePanel (BuildingDecks);
+
 	}
 
 	//Fenster (Pop-Up) für den Deckbau schliessen

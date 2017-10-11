@@ -8,12 +8,9 @@ using System.Collections.Generic;
 public class Lobbymanager : MonoBehaviour {
 	
 
-	public GameObject PlayerContent;
-	public GameObject AvailableCardContent;
+	public GameObject Content;
 	public GameObject ListObject;
-	public List <GameObject> AvailablePlayers = new List <GameObject>();
-	public List <GameObject> AvailableCards = new List <GameObject>();
-	public List <ushort> Deck = new List <ushort> ();
+	public List <GameObject> gos = new List <GameObject>();
 	public RectTransform Spaghettifix;
 
 
@@ -21,18 +18,18 @@ public class Lobbymanager : MonoBehaviour {
 		
 		if (Globalmanager.availablePlayersUpdated == true) {
 
-			foreach (GameObject go in AvailablePlayers) {
+			foreach (GameObject go in gos) {
 
 				Destroy (go);
 			}
 
-			AvailablePlayers.Clear();
+			gos.Clear();
 
 			foreach (string player in Globalmanager.availablePlayers) {
 
 				GameObject go = Instantiate (ListObject);
-				go.transform.SetParent (PlayerContent.transform, false);
-				AvailablePlayers.Add (go);
+				go.transform.SetParent (Content.transform,false);
+				gos.Add (go);
 				Spaghettifix.sizeDelta = new Vector2 (1,1);
 				Text t = go.GetComponentInChildren<Text> ();
 				t.text = player;
@@ -42,31 +39,24 @@ public class Lobbymanager : MonoBehaviour {
 
 		if (Globalmanager.availableCardsUpdated == true) {
 
-			foreach (GameObject go in AvailableCards) {
+			foreach (GameObject go in gos) {
 
 				Destroy (go);
 			}
 
-			AvailableCards.Clear();
+			gos.Clear();
 
 			foreach (ushort card in Globalmanager.availableCards) {
 
 				Card Character = Card.createCharacter (card);
 				GameObject go = Instantiate (ListObject);
-				go.transform.SetParent (AvailableCardContent.transform, false);
-				AvailableCards.Add (go);
+				go.transform.SetParent (Content.transform,false);
+				gos.Add (go);
 				Spaghettifix.sizeDelta = new Vector2 (1,1);
 				Text t = go.GetComponentInChildren<Text> ();
-				t.text = Character.Name;
-
+				t.text = Character.name;
 			}
 			Globalmanager.availableCardsUpdated = false;
-		}
-	}
-
-	public void OnButtonPressed(){
-
-		foreach (GameObject go in AvailableCards){
 		}
 	}
 }

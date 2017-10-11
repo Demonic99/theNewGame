@@ -59,7 +59,7 @@ public class Manager : MonoBehaviour {
 
 	}
 
-	public void OnDataRecieved(byte tag, ushort subject, object data){
+	public void OnDataRecieved(byte tag, ushort subject,object data){
 
 		if (tag == (byte)TagsNSubjects.Tags.MATCHMAKING_TAG) {
 
@@ -72,6 +72,7 @@ public class Manager : MonoBehaviour {
 					nn = reader.ReadStrings ();
 					Globalmanager.availablePlayers.Clear ();
 					Globalmanager.availablePlayers.AddRange (nn);
+					Debug.Log (nn.Length);
 					Globalmanager.availablePlayersUpdated = true;
 				}
 			}
@@ -82,9 +83,13 @@ public class Manager : MonoBehaviour {
 			if (subject == (ushort)TagsNSubjects.CardSubjects.AVAILABLECARDS) {
 
 				using (DarkRiftReader reader = data as DarkRiftReader) {
-					ushort[] n = reader.ReadUInt16s ();
+					int n;
+					n = reader.ReadInt32 ();
+					ushort[] nn = new ushort[n];
+					nn = reader.ReadUInt16s ();
 					Globalmanager.availableCards.Clear ();
-					Globalmanager.availableCards.AddRange (n);
+					Globalmanager.availableCards.AddRange (nn);
+					Debug.Log (nn.Length);
 					Globalmanager.availableCardsUpdated = true;
 				}
 			}
