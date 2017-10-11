@@ -22,10 +22,14 @@ MonoBehaviour:
   m_RootView: {fileID: 2}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 492}
 =======
   m_MinSize: {x: 950, y: 300}
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  m_MinSize: {x: 950, y: 545}
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   m_MinSize: {x: 950, y: 545}
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -53,10 +57,14 @@ MonoBehaviour:
     height: 781
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 492}
 =======
   m_MinSize: {x: 950, y: 300}
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  m_MinSize: {x: 950, y: 545}
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   m_MinSize: {x: 950, y: 545}
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -127,10 +135,14 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 67
 =======
   controlID: 10950
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  controlID: 3848
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   controlID: 3848
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -159,10 +171,14 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 68
 =======
   controlID: 10951
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  controlID: 3849
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   controlID: 3849
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -191,10 +207,14 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 47
 =======
   controlID: 10952
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  controlID: 3850
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   controlID: 3850
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -274,10 +294,14 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 69
 =======
   controlID: 11044
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  controlID: 3874
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   controlID: 3874
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -301,12 +325,17 @@ MonoBehaviour:
     height: 382
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 104, y: 121}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 18}
 =======
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
@@ -499,10 +528,14 @@ MonoBehaviour:
   m_SceneLighting: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastFramingTime: 97.04621445883228
 =======
   lastFramingTime: 16924.04360242108
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+  lastFramingTime: 15.643393524724948
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
   lastFramingTime: 15.643393524724948
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -584,10 +617,14 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: e2fbffff00000000
 =======
     m_ExpandedIDs: 4459feff606efeffba6ffeff0672feff9072feff0677feff1a7dfeff4684feff1e8afeffa88cfeff2490feffc69efeffa8a5feff70a7feffc6aafeffeaabfeff70acfeffd2b1feff2cb9feff021fffffe42fffff4c48ffff484affff1aeeffff98f0ffffa0f1ffff32f2ffff90f6ffffe4f7ffff76f8ffff0af9ffffe4fbffff000000007a290000e4290000922a0000522b00006c2d00001a2e00001a300000764200005a5b0000fe5b0000125c0000245c00008e5c0000465d0000a66300001a650000d26500000e6b0000c66b0000667000007c700000fe70000042720000687200007a720000847200005e77000074770000d6770000f6770000067800002c7800003e78000048780000
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+    m_ExpandedIDs: 26c8ffff2acfffff0ed2ffff42ddffffd4ddfffffce0ffffdce2ffffaee8ffff54eaffff96edffff30eeffffcaeefffffeefffffe4fbffff00000000082b0000d42d00001e3100001c3400009038000018390000043d0000
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
     m_ExpandedIDs: 26c8ffff2acfffff0ed2ffff42ddffffd4ddfffffce0ffffdce2ffffaee8ffff54eaffff96edffff30eeffffcaeefffffeefffffe4fbffff00000000082b0000d42d00001e3100001c3400009038000018390000043d0000
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -689,10 +726,14 @@ MonoBehaviour:
     m_LastClickedID: 9084
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ee2400002825000040250000482500004e250000
 =======
     m_ExpandedIDs: ae94feffd696feff00000000d22400000e250000282500003025000036250000
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+    m_ExpandedIDs: 00000000d22400000e250000282500003025000036250000
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
     m_ExpandedIDs: 00000000d22400000e250000282500003025000036250000
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
@@ -725,10 +766,14 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ee2400002825000040250000482500004e250000582500005c2500005e250000
 =======
     m_ExpandedIDs: ae94feffd696feff00000000d22400000e250000282500003025000036250000
 >>>>>>> 7114ac5da4ff7962f3ab6433c89b1a51cc8dcfb0
+=======
+    m_ExpandedIDs: 00000000d22400000e250000282500003025000036250000
+>>>>>>> parent of 7114ac5... Available Card List Bug fixt
 =======
     m_ExpandedIDs: 00000000d22400000e250000282500003025000036250000
 >>>>>>> parent of 7114ac5... Available Card List Bug fixt
