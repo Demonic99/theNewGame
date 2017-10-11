@@ -11,6 +11,10 @@ public class LoginManager : MonoBehaviour {
 		Manager.Connection.onData += OnDataRecieved;
 	}
 
+	public void OnApplicationQuit(){
+		Manager.Connection.onData -= OnDataRecieved;
+	}
+
 	public InputField nameField;
 	public InputField pwField;
 

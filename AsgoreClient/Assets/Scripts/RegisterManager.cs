@@ -15,6 +15,14 @@ public class RegisterManager : MonoBehaviour {
 	public GameObject usernameTakenPanel;
 	public GameObject emailInUsePanel;
 
+	public void Start(){
+		Manager.Connection.onData += OnDataRecieved;
+	}
+
+	public void OnApplicationQuit(){
+		Manager.Connection.onData -= OnDataRecieved;
+	}
+
 	public void Register(){
 
 		if (pwText1.text == pwText2.text && pwText1.text.Length != 0) {
@@ -37,9 +45,11 @@ public class RegisterManager : MonoBehaviour {
 				SceneManager.LoadScene ("Login");
 			}
 			if (subject == (ushort)TagsNSubjects.RegisterSubjects.REGISTERFAILEDUSERNAME) {
+				Debug.Log ("Username");
 				usernameTakenPanel.SetActive (true);
 			}
 			if (subject == (ushort)TagsNSubjects.RegisterSubjects.REGISTERFAILEDEMAIL) {
+				Debug.Log ("Email");
 				emailInUsePanel.SetActive (true);
 			}
 		}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Card : MonoBehaviour {
+public class Card{
 
 	public ushort Id;
 	public byte Movement;
@@ -40,9 +40,38 @@ public class Card : MonoBehaviour {
 	public static Card createCharacter(ushort Id) {
 		switch (Id) {
 		case 0:
+			return new Card (0, 1, 5, 1, Position.OWN, 50, 50, State.NORMAL, 1, 1, 1, "Error");
+
+		case 1:
+			return new Card (1, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Assassin Dante");
+
+		case 2:
+			return new Card (2, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Kickboxing Ale");
+
+		case 3:
+			return new Card (3, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Scripter Luke");
+
+		case 4:
+			return new Card (4, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Dominik, die Säule");
+
+		case 5:
+			return new Card (5, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Sneezing Lukas");
+
+		case 6:
+			return new Card (6, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "CodeCampLeader Emil");
+
+		case 7:
+			return new Card (7, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Bizeps Aaron");
+
+		case 8:
+			return new Card (8, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Tetris Celine");
+
+		case 9:
+			return new Card (9, 1, 1, 1, Position.OWN, 1, 1, State.NORMAL, 1, 1, 1, "Lan Steffi");
+
+		default:
 			return new Card(0, 1, 5, 1, Position.OWN, 50, 50, State.NORMAL, 1, 1, 1, "Error");
 		}
-		return new Card(0, 1, 5, 1, Position.OWN, 50, 50, State.NORMAL, 1, 1, 1, "Error");
 	}
 }
 public class SpecialAttack {
@@ -59,10 +88,13 @@ public class SpecialAttack {
 		switch (Id){
 		case 0:
 			return new SpecialAttack(0,255);
+
 		case 1:
 			return new TestAttack();
+
+		default:
+			return new SpecialAttack(0,255);
 		}
-		return new SpecialAttack(0,255);
 	}
 }
 public class TestAttack : SpecialAttack {
